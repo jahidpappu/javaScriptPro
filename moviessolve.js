@@ -70,3 +70,14 @@ const movies = [
 const moviesIndex = movies[2];
 
 const textShow = moviesIndex.name + 'got' + moviesIndex.rating + 'rating and under' + moviesIndex.category + 'category' ;
+
+
+
+function profileBuilder(){
+  console.log('jahid hossain');
+}
+
+function dyInput(firstName, lastName, age, job){
+  console.log( ` My name is ${firstName} ${lastName}. I am ${age} . i word as ${job} ` );
+}
+dyInput();
